@@ -2,6 +2,7 @@
 using namespace std;
 
 // Binary Search - O(log n)
+
 int binarySearch(int arr[], int size, int target) {
     int left = 0;
     int right = size - 1;
@@ -16,7 +17,7 @@ int binarySearch(int arr[], int size, int target) {
         else
             right = mid - 1;     // go left half
     }
-    return -1; // not found
+    return -1;     // not found
 }
 
 int main() {
