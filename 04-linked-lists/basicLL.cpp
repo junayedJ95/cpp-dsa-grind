@@ -28,7 +28,7 @@ int main() {
     first->data = 10;
     second->data = 20;
     third->data = 30;
-    forth->data =  40;
+    forth->data =  
 
     // ------------------------------
     // Connect the nodes
@@ -36,8 +36,7 @@ int main() {
     // ------------------------------
     first->next = second;
     second->next = third;
-    third->next = forth;
-    forth->next = NULL;
+    third->next = NULL;
 
     // ------------------------------
     // Traversal
